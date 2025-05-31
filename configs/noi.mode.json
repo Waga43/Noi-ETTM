@@ -1,9 +1,15 @@
 {
-  "name": "Noi Mode",
+  "name": "Noi-EduTechTainMent Mode",
   "version": "0.2.0",
-  "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.json",
+  "sync": "https://github.com/waga43/noi-ETTM/blob/main/configs/noi.mode.json",
   "modes": [
     {
+      "id": "noi:ai-prompt-generator",
+      "parent": 0,
+      "text": "AI-Mind Prompt Generator"
+	  "url": "https://www.aimind.so/prompt-generator"
+    },
+	{
       "id": "noi@ai",
       "parent": 0,
       "dir": true,
@@ -38,6 +44,102 @@
       "parent": 0,
       "dir": true,
       "text": "Video"
+    },
+	{
+      "id": "noi@Teaching&Research",
+      "parent": 0,
+      "dir": true,
+      "text": "Teaching and Research"
+    },
+	{
+      "id": "noi@Teaching&Research@General",
+      "parent": "noi@Teaching&Research",
+      "dir": true,
+      "text": "General"
+    },
+	{
+      "id": "noi@Teaching&Research@General@Free",
+      "parent": "noi@Teaching&Research@General",
+      "dir": true,
+      "text": "Free"
+    },
+	{
+      "id": "noi@Teaching&Research@Quiz-Assessment-Tools@Freemium",
+      "parent": "noi@Teaching&Research@Quiz-Assessment-Tools",
+      "dir": true,
+      "text": "Freemium"
+    },
+	{
+      "id": "noi@Teaching&Research@Quiz-Assessment-Tools",
+      "parent": "noi@Teaching&Research",
+      "dir": true,
+      "text": "Quiz Assessment Tools"
+    },
+	{
+      "id": "noi@Teaching&Research@Quiz-Assessment-Tools@Free",
+      "parent": "noi@Teaching&Research@Quiz-Assessment-Tools",
+      "dir": true,
+      "text": "Free"
+    },
+	{
+      "id": "noi@Teaching&Research@Quiz-Assessment-Tools@Freemium",
+      "parent": "noi@Teaching&Research@Quiz-Assessment-Tools",
+      "dir": true,
+      "text": "Freemium"
+    },
+	{
+      "id": "noi@Teaching&Research@Lesson-Design-and-Content-Creation",
+      "parent": "noi@Teaching&Research@",
+      "dir": true,
+      "text": "Lesson Design and Content Creation"
+    },
+	{
+      "id": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Free",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation",
+      "dir": true,
+      "text": "Free"
+    },
+	{
+      "id": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Freemium",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation",
+      "dir": true,
+      "text": "Freemium"
+    },
+	{
+      "id": "noi@Teaching&Research@Visual-and-Design-Tools",
+      "parent": "noi@Teaching&Research",
+      "dir": true,
+      "text": "Visual and Design Tools"
+    },
+	{
+      "id": "noi@Teaching&Research@Visual-and-Design-Tools@Free",
+      "parent": "noi@Teaching&Research@Visual-and-Design-Tools",
+      "dir": true,
+      "text": "Free"
+    },
+	{
+      "id": "noi@Teaching&Research@Visual-and-Design-Tools@Freemium",
+      "parent": "noi@Teaching&Research@Visual-and-Design-Tools",
+      "dir": true,
+      "text": "Freemium"
+    },
+	{
+      "id": "noi@Teaching&Research@ChatBots",
+      "parent": "noi@Teaching&Research",
+      "dir": true,
+      "text": "Chat Bots"
+    },
+	{
+      "id": "noi@Teaching&Research@ChatBots@Free",
+      "parent": "noi@Teaching&Research@ChatBots",
+      "dir": true,
+      "text": "Free"
+    },
+	{
+      "id": "noi@Teaching&Research@ChatBots@Freemium",
+      "parent": "noi@Teaching&Research@ChatBots",
+      "dir": true,
+      "text": "Freemium"
     },
     {
       "id": "noi:chatgpt",
@@ -159,6 +261,24 @@
       "text": "Suno AI",
       "url": "https://suno.com"
     },
+	{
+      "id": "noi:Gemini-ChatGPT-Claude",
+      "parent": "noi@ai",
+      "text": "Gemini-ChatGPT-Claude",
+      "url": "https://geminivsgpt.com/"
+    },
+	{
+      "id": "noi:ORA",
+      "parent": "noi@ai",
+      "text": "ORA",
+      "url": "https://ora.ai/dashboard"
+    },
+	{
+      "id": "noi:LeonardoAI",
+      "parent": "noi@ai",
+      "text": "Leonardo AI",
+      "url": "https://leonardo.ai/"
+    },
     {
       "id": "noi:github",
       "parent": "noi@dev",
@@ -237,5 +357,215 @@
       "text": "YouTube",
       "url": "https://www.youtube.com"
     }
+	{
+      "id": "noi:Google-Notebook-LM",
+      "parent": "noi@Teaching&Research@General@Free",
+      "text": "Google Notebook LM",
+      "url": "https://notebooklm.google.com/?pli=1"
+    },
+	{
+      "id": "noi:Formative",
+      "parent": "noi@Teaching&Research@General@Free",
+      "text": "Formative",
+      "url": "http://formative.com/"
+    }
+	{
+      "id": "noi:Question-Well",
+      "parent": "noi@Teaching&Research@Quiz-Assessment-Tools@Free",
+      "text": "Question Well",
+      "url": "http://questionwell.org/"
+    },
+	{
+      "id": "noi:Summarize",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Free",
+      "text": "Summarize",
+      "url": "http://summarize.tech/"
+    },
+	{
+      "id": "noi:Goblin",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Free",
+      "text": "Summarize",
+      "url": "https://goblin.tools/"
+    },
+	{
+      "id": "noi:gotFeedback",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Free",
+      "text": "gotFeedback",
+      "url": "https://app.gotlearning.com/signup/"
+    },
+	{
+      "id": "noi:TeachAid",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Free",
+      "text": "Teach Aid",
+      "url": "http://teachaid.ca/"
+    },
+	{
+      "id": "noi:Animatter-Socerer",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Free",
+      "text": "Animater Socerer",
+      "url": "http://antimatter.systems/"
+    },
+	{
+      "id": "noi:BriskTeaching",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Free",
+      "text": "Brisk Teaching",
+      "url": "http://briskteaching.com/"
+    },
+	{
+      "id": "noi:MagicSchool",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Free",
+      "text": "Magic School",
+      "url": "https://app.magicschool.ai/"
+    },
+	{
+      "id": "noi:CuridAI",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Free",
+      "text": "Curid AI",
+      "url": "https://u3075.birdsend.net/c/_ba5520e5b594b888aeb7b2d6f5/16128823/215067/0d944ea160b29e61ef6e7f5bb5dcaa67/?ms=52"
+    },
+	{
+      "id": "noi:ChatPDF",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Freemium",
+      "text": "Chat PDF",
+      "url": "https://www.chatpdf.com/"
+    },
+	{
+      "id": "noi:HelloHistory",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Freemium",
+      "text": "Hello History",
+      "url": "https://www.hellohistory.ai/"
+    },
+	{
+      "id": "noi:QuillBot",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Freemium",
+      "text": "Quill Bot",
+      "url": "https://quillbot.com/"
+    },
+	{
+      "id": "noi:CopyAI",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Freemium",
+      "text": "CopyAI",
+      "url": "https://app.copy.ai/"
+    },
+	{
+      "id": "noi:Grammarly",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Freemium",
+      "text": "Grammarly",
+      "url": "https://www.grammarly.com/"
+    },
+	{
+      "id": "noi:Nolej",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Freemium",
+      "text": "Nolej",
+      "url": "http://nolej.io/"
+    },
+	{
+      "id": "noi:EduAide",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Freemium",
+      "text": "Edu Aide",
+      "url": "https://www.eduaide.ai/"
+    },
+	{
+      "id": "noi:EducationCopilot",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Freemium",
+      "text": "Education Copilot (30 Days Trial)",
+      "url": "https://educationcopilot.com/"
+    },
+	{
+      "id": "noi:SchoolAI",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Freemium",
+      "text": "School AI",
+      "url": "http://schoolai.com/"
+    },
+	{
+      "id": "noi:Diffit",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Freemium",
+      "text": "Diffit for Teachers",
+      "url": "http://web.diffit.me/"
+    },
+	{
+      "id": "noi:CanvaMagicClassroom",
+      "parent": "noi@Teaching&Research@Visual-and-Design-Tools@Free",
+      "text": "Canva Magic Classroom",
+      "url": "https://www.canva.com/education/"
+    },
+	{
+      "id": "noi:AutoDraw",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Free",
+      "text": "Auto Draw",
+      "url": "https://www.autodraw.com/"
+    },
+	{
+      "id": "noi:MicrosoftDesigner",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Free",
+      "text": "Microsoft Designer",
+      "url": "http://designer.microsoft.com/"
+    },
+	{
+      "id": "noi:AdobeFirefly",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Free",
+      "text": "Adobe Firefly",
+      "url": "https://firefly.adobe.com/inspire/images"
+    },
+	{
+      "id": "noi:Pictory",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Freemium",
+      "text": "Pictory (3 Videos Projects",
+      "url": "https://pictory.ai/"
+    },
+	{
+      "id": "noi:Ideogram",
+      "parent": "noi@Teaching&Research@Lesson-Design-and-Content-Creation@Freemium",
+      "text": "Ideogram (25 msgs/day)",
+      "url": "http://ideogram.ai/"
+    },
+	{
+      "id": "noi:AIPromptGenerator",
+      "parent": "noi@Teaching&Research@ChatBots@Free",
+      "text": "AI Prompt Generator",
+      "url": "https://aimind.so/prompt-generator/"
+    },
+	{
+      "id": "noi:piAI",
+      "parent": "noi@Teaching&Research@ChatBots@Free",
+      "text": "Pi AI",
+      "url": "https://pi.ai/"
+    },
+	{
+      "id": "noi:GoogleGemini",
+      "parent": "noi@Teaching&Research@ChatBots@Free",
+      "text": "Google Gemini",
+      "url": "https://gemini.google.com/"
+    },
+	{
+      "id": "noi:ChatGPT",
+      "parent": "noi@Teaching&Research@ChatBots@Free",
+      "text": "ChatGPT",
+      "url": "http://chat.openai.com/"
+    },
+	{
+      "id": "noi:MicrosoftCopilot",
+      "parent": "noi@Teaching&Research@ChatBots@Free",
+      "text": "Microsoft CoPilot",
+      "url": "http://copilot.microsoft.com/"
+    },
+	{
+      "id": "noi:Grok",
+      "parent": "noi@Teaching&Research@ChatBots@Free",
+      "text": "Grok by Elon Musk",
+      "url": "https://chat.groq.com"
+    },
+	{
+      "id": "noi:Gemini Pro",
+      "parent": "noi@Teaching&Research@ChatBots@Freemium",
+      "text": "Gemini Pro",
+      "url": "https://chat.googlegemini.co/#/chat"
+    },
+	{
+      "id": "noi:Claude",
+      "parent": "noi@Teaching&Research@ChatBots@Freemium",
+      "text": "Claude (30 msgs/per)",
+      "url": "http://claude.ai/"
+    },
   ]
 }
